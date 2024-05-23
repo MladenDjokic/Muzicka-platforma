@@ -1,0 +1,13 @@
+.animate-button {
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px 30px;
+    margin: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.animate-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
