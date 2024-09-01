@@ -22,6 +22,7 @@
                 <?php if (isset($_SESSION['user_id'])): ?>
                     <li class="nav-item"><a class="nav-link" href="muzika.php">Muzika</a></li>
                     <li class="nav-item"><a class="nav-link" href="omiljena_muzika.php">Vasa omiljena muzika</a></li>
+                    <li class="nav-item"><a class="nav-link" href="dodaj_pesmu.php">Dodaj muziku</a></li>
                 <?php endif; ?>
             </ul>
             <ul class="navbar-nav">
